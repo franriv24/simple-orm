@@ -1,2 +1,2 @@
-# simplekit
-Kit of commonly used tools for zend 2
+# simple-orm
+Simple ORM based on zend-db

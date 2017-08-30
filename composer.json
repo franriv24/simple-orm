@@ -1,0 +1,27 @@
+{
+    "name"       : "rchdev/simple-orm",
+    "type"       : "library",
+    "description": "simple ORM based on zend-db",
+    "license"    : "BSD-3-Clause",
+    "keywords"   : [
+        "orm",
+        "zf2",
+        "zend-db"
+    ],
+   "authors"     : [
+        {
+            "name"    : "Francisco Rivera",
+            "email"   : "francisco@rchdev.com.br",
+            "homepage": "https://rchdev.com.br"
+        }
+    ],
+    "homepage": "https://github.com/rchdev/simple-orm",
+    "autoload": {
+        "psr-4": { "Rchdev\\SimpleOrm\\": "src/" }
+    },
+    "require" : {
+        "php"                  : ">=5.6",
+        "minime/annotations"   : "~3.0" ,
+        "zendframework/zend-db": "2.8.*"
+    }
+}

@@ -74,6 +74,8 @@ abstract class AbstractRepository implements RepositoryInterface
 
         if ( method_exists($entity, 'setId') ) {
             $entity->setId($result);
+
+            $entity->__setInitialized();
         }
 
         return true;
